@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BaseMyUtils.iml" filepath="$PROJECT_DIR$/BaseMyUtils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BaseTool.iml" filepath="$PROJECT_DIR$/BaseTool.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BaseTool-master.iml" filepath="$PROJECT_DIR$/BaseTool-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BaseUtils.iml" filepath="$PROJECT_DIR$/BaseUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BaseMyUtils.iml" filepath="$PROJECT_DIR$/.idea/BaseMyUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
