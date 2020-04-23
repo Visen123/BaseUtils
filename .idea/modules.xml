@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BaseMyUtils.iml" filepath="$PROJECT_DIR$/BaseMyUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaseTool.iml" filepath="$PROJECT_DIR$/BaseTool.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaseTool-master.iml" filepath="$PROJECT_DIR$/BaseTool-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaseUtils.iml" filepath="$PROJECT_DIR$/BaseUtils.iml" />
