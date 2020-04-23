@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="iconview">
+        <attr name="icon_id" format="reference" />
+        <attr name="text" format="string" />
+        <attr name="textsize" format="dimension" />
+        <attr name="textcolor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationBar">
+        <attr name="bnbElevation" format="dimension" />
+        <attr name="bnbActiveColor" format="color" />
+        <attr name="bnbInactiveColor" format="color" />
+        <attr name="bnbBackgroundColor" format="color" />
+        <attr name="bnbAnimationDuration" format="integer" />
+        <attr name="bnbMode" format="enum">
+            <enum name="mode_default" value="0" />
+            <enum name="mode_fixed" value="1" />
+            <enum name="mode_shifting" value="2" />
+            <enum name="mode_fixed_no_title" value="3" />
+            <enum name="mode_shifting_no_title" value="4" />
+        </attr>
+        <attr name="bnbBackgroundStyle" format="enum">
+            <enum name="background_style_default" value="0" />
+            <enum name="background_style_static" value="1" />
+            <enum name="background_style_ripple" value="2" />
+        </attr>
+        <attr name="bnbAutoHideEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberProgressBar">
+        <attr name="reachedColor" format="color" />
+        <attr name="reachedHeight" format="dimension" />
+        <attr name="unreachedColor" format="color" />
+        <attr name="unreachedHeight" format="dimension" />
+        <attr name="drawtextsize" format="dimension" />
+        <attr name="drawtextcolor" format="color" />
+        <attr name="textoffet" format="dimension" />
+        <attr name="progress_text_visible" format="boolean" />
+        <attr name="curent_progress" format="integer" />
+        <attr name="max_progress" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <!-- {@deprecated Use civ_circlebackground_color instead.} -->
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleTextView">
+        <attr name="background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CountDownButton">
+        <attr name="countDownFormat" format="string"/>
+        <attr name="countDown" format="float"/>
+        <attr name="countDownInterval" format="float"/>
+        <attr name="enableCountDown" format="boolean"/>
+        <attr name="cdFinishText" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="leftViewId" format="reference"/>
+        <attr name="rightViewId" format="reference"/>
+        <attr name="contentViewId" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+</resources>

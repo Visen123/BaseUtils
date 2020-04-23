@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/basetool_header_px" />
+
+    <TextView
+        android:id="@+id/read_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:background="@android:color/white"
+        android:padding="20px"
+        android:text="读取文本"
+        android:textColor="@color/text_color"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/write_text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:background="@android:color/white"
+        android:padding="20px"
+        android:text="写入文本"
+        android:textColor="@color/text_color"
+        android:textSize="30px" />
+</LinearLayout>

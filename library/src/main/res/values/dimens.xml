@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--首页tab个性化-->
+
+    <dimen name="more_small">9sp</dimen>
+    <dimen name="small">10sp</dimen>
+    <dimen name="small1">11sp</dimen>
+    <dimen name="small_little">12sp</dimen>
+    <dimen name="small_to_middle">12sp</dimen>
+    <dimen name="middle_small">13sp</dimen>
+    <dimen name="middle_to_small">14sp</dimen>
+    <dimen name="middle">14sp</dimen>
+    <dimen name="middle_more">15sp</dimen>
+    <dimen name="middle_more_little">16sp</dimen>
+    <dimen name="middle_more_big">18sp</dimen>
+    <dimen name="middle_to_big">20sp</dimen>
+    <dimen name="big">23sp</dimen>
+    <dimen name="big_better">25sp</dimen>
+    <dimen name="big_best">30sp</dimen>
+    <dimen name="big_big">40sp</dimen>
+
+
+    <dimen name="small_four">4sp</dimen>
+    <dimen name="small_three">5sp</dimen>
+    <dimen name="small_two">6sp</dimen>
+    <dimen name="small_one">7sp</dimen>
+    <dimen name="middle_one">8sp</dimen>
+    <dimen name="middle_two">9sp</dimen>
+    <dimen name="middle_three">10sp</dimen>
+    <dimen name="middle_four">11sp</dimen>
+    <dimen name="middle_five">12sp</dimen>
+    <dimen name="big_one">14sp</dimen>
+    <dimen name="big_two">16sp</dimen>
+    <dimen name="big_three">18sp</dimen>
+    <dimen name="big_four">22sp</dimen>
+    <dimen name="big_five">27sp</dimen>
+    <dimen name="big_six">32sp</dimen>
+    <dimen name="big_seven">37sp</dimen>
+    <dimen name="big_eight">42sp</dimen>
+    <dimen name="big_nine">47sp</dimen>
+
+
+    <dimen name="badge_width_padding">4dp</dimen>
+    <dimen name="badge_height_padding">1dp</dimen>
+    <dimen name="badge_top_margin">2dp</dimen>
+    <dimen name="badge_text_size">12sp</dimen>
+    <dimen name="badge_corner_radius">13dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fixed_height">56dp</dimen>
+    <dimen name="fixed_height_bottom_padding">10dp</dimen>
+    <dimen name="fixed_width_padding">12dp</dimen>
+    <dimen name="fixed_height_top_padding_inactive">2dp</dimen>
+    <dimen name="fixed_icon_badge_grid_height">36dp</dimen>
+    <dimen name="fixed_icon_badge_grid_width">48dp </dimen>
+    <dimen name="fixed_icon_grid">24dp</dimen>
+    <item format="float" name="fixed_label_active_to_inactive_ratio" type="dimen">0.857</item>
+    <dimen name="fixed_label_active">12sp</dimen>
+    <dimen name="shifting_height">56dp</dimen>
+    <dimen name="shifting_height_bottom_padding_active">10dp</dimen>
+    <dimen name="shifting_width_custom_padding">6dp</dimen>
+    <dimen name="shifting_height_top_padding_inactive">10dp</dimen>
+    <dimen name="shifting_icon_badge_grid_height">36dp</dimen>
+    <dimen name="shifting_icon_badge_grid_width">48dp</dimen>
+    <dimen name="shifting_icon_grid">24dp</dimen>
+    <dimen name="shifting_label">12sp</dimen>
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="fixed_min_width_small_views">104dp</dimen>
+    <dimen name="fixed_min_width">120dp</dimen>
+    <dimen name="shifting_min_width_inactive">64dp</dimen>
+    <dimen name="shifting_max_width_inactive">96dp</dimen>
+    <dimen name="fixed_label_inactive">12sp</dimen>
+    <dimen name="fixed_height_top_padding_active">0dp</dimen>
+    <dimen name="fixed_no_title_icon_container_height">42dp</dimen>
+    <dimen name="fixed_no_title_icon_container_width">56dp</dimen>
+    <dimen name="fixed_no_title_icon_height">32dp</dimen>
+    <dimen name="fixed_no_title_icon_width">32dp</dimen>
+    <dimen name="shifting_no_title_icon_container_height">42dp</dimen>
+    <dimen name="shifting_no_title_icon_container_width">56dp</dimen>
+    <dimen name="shifting_no_title_icon_height">32dp</dimen>
+    <dimen name="shifting_no_title_icon_width">32dp</dimen>
+    <dimen name="shifting_height_top_padding_active">0dp</dimen>
+
+    <dimen name="toolBarHeight">48dp</dimen>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/basetool_header_px" />
+
+    <TextView
+        android:id="@+id/text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:textColor="@color/text_color"
+        android:textSize="28px" />
+
+    <EditText
+        android:id="@+id/text_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:background="@color/white"
+        android:hint="请输入内容"
+        android:padding="20px"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color_secend"
+        android:textSize="28px" />
+
+    <TextView
+        android:id="@+id/undate_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30px"
+        android:background="@drawable/selector_green"
+        android:paddingBottom="5px"
+        android:paddingLeft="30px"
+        android:paddingRight="20px"
+        android:paddingTop="5px"
+        android:text="更新"
+        android:textColor="@android:color/white"
+        android:textSize="28px" />
+
+</LinearLayout>

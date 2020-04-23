@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/basetool_header_px" />
+
+    <TextView
+        android:id="@+id/asyn_get_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:background="@android:color/white"
+        android:padding="20px"
+        android:text="异步GET请求"
+        android:textColor="@color/text_color"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/syn_get_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:background="@android:color/white"
+        android:padding="20px"
+        android:text="同步GET请求"
+        android:textColor="@color/text_color"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/asyn_post_string_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:background="@android:color/white"
+        android:padding="20px"
+        android:text="异步PostString"
+        android:textColor="@color/text_color"
+        android:textSize="30px" />
+
+    <TextView
+        android:id="@+id/asyn_post_stream_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:background="@android:color/white"
+        android:padding="20px"
+        android:text="异步PostSteanm"
+        android:textColor="@color/text_color"
+        android:textSize="30px" />
+    <TextView
+        android:id="@+id/asyn_post_form_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:background="@android:color/white"
+        android:padding="20px"
+        android:text="异步PostForm"
+        android:textColor="@color/text_color"
+        android:textSize="30px" />
+</LinearLayout>

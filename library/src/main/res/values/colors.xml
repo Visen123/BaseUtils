@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--文字颜色-->
+    <color name="text_color">#333333</color>
+    <color name="text_color_one">#474747</color>
+    <color name="text_color_secend">#999999</color>
+    <color name="text_hint">#d3d3d3</color>
+    <color name="text_des">#bbbbbb</color>
+
+    <color name="main_press_background">#ff6562</color>
+    <color name="main_text_normal">#626262</color>
+    <color name="background_color">#f7f7f7</color>
+    <color name="line_color">#e1e1e1</color>
+    <color name="price_color">#ff6562</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="tab_color">#ff335f</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="tab_text_unselect">#666666</color>
+
+    <color name="banner_theme">#0085cf</color>
+    <color name="banner_red">#CD252B</color>
+    <color name="banner_gery_dark">#919191</color>
+    <color name="black">#000000</color>
+
+    <color name="head_translucent">#33000000</color>
+    <color name="react">#ffffff</color>
+    <color name="scanLineColor">#ffffff</color>
+    <color name="viewfinder_mask">#50000000</color>
+    <color name="result_view">#000000</color>
+    <color name="possible_result_points">#ffbd21</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+</resources>

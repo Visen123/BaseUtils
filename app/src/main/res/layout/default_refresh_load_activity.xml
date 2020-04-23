@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/basetool_header_px"/>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView
+            android:id="@+id/list_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+        </com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

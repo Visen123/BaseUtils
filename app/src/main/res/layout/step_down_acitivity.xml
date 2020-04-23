@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/basetool_header_px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="50px"
+        android:text="步数为" />
+
+    <TextView
+        android:id="@+id/step_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="10px"
+        android:textColor="@color/red_normal"
+        android:textSize="30px" />
+
+
+    <TextView
+        android:id="@+id/stop_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28px"
+        android:layout_marginTop="20px"
+        android:textColor="@color/text_color"
+        android:text="停止通知"/>
+
+    <TextView
+        android:id="@+id/start_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28px"
+        android:layout_marginTop="20px"
+        android:textColor="@color/text_color"
+        android:text="开始通知"/>
+</LinearLayout>
