@@ -32,6 +32,7 @@ import com.yanyiyun.baseutils.util.FilePicker;
 
 import java.util.ArrayList;
 
+
 public class MainActivity extends BaseActivity  {
 
     private ListView list_lv;
@@ -58,7 +59,8 @@ public class MainActivity extends BaseActivity  {
         findViewById(R.id.scan_b).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivityForResult(BaseToolCaptureActivity.createIntent(mContext),QR_CODE);
+                Intent intent = new Intent(MainActivity.this, BaseToolCaptureActivity.class);
+                startActivityForResult(intent,QR_CODE);
             }
         });
 
