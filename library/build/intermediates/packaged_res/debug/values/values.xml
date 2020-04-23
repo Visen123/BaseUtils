@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#f7f7f7</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="banner_gery_dark">#919191</color>
+    <color name="banner_red">#CD252B</color>
+    <color name="banner_theme">#0085cf</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="head_translucent">#33000000</color>
+    <color name="line_color">#e1e1e1</color>
+    <color name="main_press_background">#ff6562</color>
+    <color name="main_text_normal">#626262</color>
+    <color name="possible_result_points">#ffbd21</color>
+    <color name="price_color">#ff6562</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="react">#ffffff</color>
+    <color name="result_view">#000000</color>
+    <color name="scanLineColor">#ffffff</color>
+    <color name="tab_color">#ff335f</color>
+    <color name="tab_text_unselect">#666666</color>
+    <color name="text_color">#333333</color>
+    <color name="text_color_one">#474747</color>
+    <color name="text_color_secend">#999999</color>
+    <color name="text_des">#bbbbbb</color>
+    <color name="text_hint">#d3d3d3</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_mask">#50000000</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="BottomNavigationBar"><attr format="dimension" name="bnbElevation"/><attr format="color" name="bnbActiveColor"/><attr format="color" name="bnbInactiveColor"/><attr format="color" name="bnbBackgroundColor"/><attr format="integer" name="bnbAnimationDuration"/><attr format="enum" name="bnbMode">
+            <enum name="mode_default" value="0"/>
+            <enum name="mode_fixed" value="1"/>
+            <enum name="mode_shifting" value="2"/>
+            <enum name="mode_fixed_no_title" value="3"/>
+            <enum name="mode_shifting_no_title" value="4"/>
+        </attr><attr format="enum" name="bnbBackgroundStyle">
+            <enum name="background_style_default" value="0"/>
+            <enum name="background_style_static" value="1"/>
+            <enum name="background_style_ripple" value="2"/>
+        </attr><attr format="boolean" name="bnbAutoHideEnabled"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/><attr format="color" name="civ_circle_background_color"/></declare-styleable>
+    <declare-styleable name="CircleTextView"><attr format="color" name="background_color"/></declare-styleable>
+    <declare-styleable name="CountDownButton"><attr format="string" name="countDownFormat"/><attr format="float" name="countDown"/><attr format="float" name="countDownInterval"/><attr format="boolean" name="enableCountDown"/><attr format="string" name="cdFinishText"/></declare-styleable>
+    <declare-styleable name="NumberProgressBar"><attr format="color" name="reachedColor"/><attr format="dimension" name="reachedHeight"/><attr format="color" name="unreachedColor"/><attr format="dimension" name="unreachedHeight"/><attr format="dimension" name="drawtextsize"/><attr format="color" name="drawtextcolor"/><attr format="dimension" name="textoffet"/><attr format="boolean" name="progress_text_visible"/><attr format="integer" name="curent_progress"/><attr format="integer" name="max_progress"/></declare-styleable>
+    <declare-styleable name="SwipeMenuLayout"><attr format="reference" name="leftViewId"/><attr format="reference" name="rightViewId"/><attr format="reference" name="contentViewId"/></declare-styleable>
+    <declare-styleable name="ViewfinderView"><attr format="color" name="corner_color"/><attr format="color" name="laser_color"/><attr format="color" name="frame_color"/><attr format="color" name="mask_color"/><attr format="color" name="result_point_color"/><attr format="color" name="result_color"/><attr format="color" name="label_text_color"/><attr format="string" name="label_text"/><attr format="float" name="label_text_size"/></declare-styleable>
+    <declare-styleable name="iconview"><attr format="reference" name="icon_id"/><attr format="string" name="text"/><attr format="dimension" name="textsize"/><attr format="color" name="textcolor"/></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_inside_color"/><attr format="color" name="border_outside_color"/></declare-styleable>
+    <dimen name="badge_corner_radius">13dp</dimen>
+    <dimen name="badge_height_padding">1dp</dimen>
+    <dimen name="badge_text_size">12sp</dimen>
+    <dimen name="badge_top_margin">2dp</dimen>
+    <dimen name="badge_width_padding">4dp</dimen>
+    <dimen name="big">23sp</dimen>
+    <dimen name="big_best">30sp</dimen>
+    <dimen name="big_better">25sp</dimen>
+    <dimen name="big_big">40sp</dimen>
+    <dimen name="big_eight">42sp</dimen>
+    <dimen name="big_five">27sp</dimen>
+    <dimen name="big_four">22sp</dimen>
+    <dimen name="big_nine">47sp</dimen>
+    <dimen name="big_one">14sp</dimen>
+    <dimen name="big_seven">37sp</dimen>
+    <dimen name="big_six">32sp</dimen>
+    <dimen name="big_three">18sp</dimen>
+    <dimen name="big_two">16sp</dimen>
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fixed_height">56dp</dimen>
+    <dimen name="fixed_height_bottom_padding">10dp</dimen>
+    <dimen name="fixed_height_top_padding_active">0dp</dimen>
+    <dimen name="fixed_height_top_padding_inactive">2dp</dimen>
+    <dimen name="fixed_icon_badge_grid_height">36dp</dimen>
+    <dimen name="fixed_icon_badge_grid_width">48dp </dimen>
+    <dimen name="fixed_icon_grid">24dp</dimen>
+    <dimen name="fixed_label_active">12sp</dimen>
+    <item format="float" name="fixed_label_active_to_inactive_ratio" type="dimen">0.857</item>
+    <dimen name="fixed_label_inactive">12sp</dimen>
+    <dimen name="fixed_min_width">120dp</dimen>
+    <dimen name="fixed_min_width_small_views">104dp</dimen>
+    <dimen name="fixed_no_title_icon_container_height">42dp</dimen>
+    <dimen name="fixed_no_title_icon_container_width">56dp</dimen>
+    <dimen name="fixed_no_title_icon_height">32dp</dimen>
+    <dimen name="fixed_no_title_icon_width">32dp</dimen>
+    <dimen name="fixed_width_padding">12dp</dimen>
+    <dimen name="middle">14sp</dimen>
+    <dimen name="middle_five">12sp</dimen>
+    <dimen name="middle_four">11sp</dimen>
+    <dimen name="middle_more">15sp</dimen>
+    <dimen name="middle_more_big">18sp</dimen>
+    <dimen name="middle_more_little">16sp</dimen>
+    <dimen name="middle_one">8sp</dimen>
+    <dimen name="middle_small">13sp</dimen>
+    <dimen name="middle_three">10sp</dimen>
+    <dimen name="middle_to_big">20sp</dimen>
+    <dimen name="middle_to_small">14sp</dimen>
+    <dimen name="middle_two">9sp</dimen>
+    <dimen name="more_small">9sp</dimen>
+    <dimen name="shifting_height">56dp</dimen>
+    <dimen name="shifting_height_bottom_padding_active">10dp</dimen>
+    <dimen name="shifting_height_top_padding_active">0dp</dimen>
+    <dimen name="shifting_height_top_padding_inactive">10dp</dimen>
+    <dimen name="shifting_icon_badge_grid_height">36dp</dimen>
+    <dimen name="shifting_icon_badge_grid_width">48dp</dimen>
+    <dimen name="shifting_icon_grid">24dp</dimen>
+    <dimen name="shifting_label">12sp</dimen>
+    <dimen name="shifting_max_width_inactive">96dp</dimen>
+    <dimen name="shifting_min_width_inactive">64dp</dimen>
+    <dimen name="shifting_no_title_icon_container_height">42dp</dimen>
+    <dimen name="shifting_no_title_icon_container_width">56dp</dimen>
+    <dimen name="shifting_no_title_icon_height">32dp</dimen>
+    <dimen name="shifting_no_title_icon_width">32dp</dimen>
+    <dimen name="shifting_width_custom_padding">6dp</dimen>
+    <dimen name="small">10sp</dimen>
+    <dimen name="small1">11sp</dimen>
+    <dimen name="small_four">4sp</dimen>
+    <dimen name="small_little">12sp</dimen>
+    <dimen name="small_one">7sp</dimen>
+    <dimen name="small_three">5sp</dimen>
+    <dimen name="small_to_middle">12sp</dimen>
+    <dimen name="small_two">6sp</dimen>
+    <dimen name="toolBarHeight">48dp</dimen>
+    <string name="all_image">所有图片</string>
+    <string name="all_video">所有视频</string>
+    <string name="app_name">Library</string>
+    <string name="button_ok">退出</string>
+    <string name="finish">完成</string>
+    <string name="icon">icon</string>
+    <string name="image_number_">张图片</string>
+    <string name="loading">正在加载...</string>
+    <string name="msg_camera_framework_bug">相机被占用或没有相机权限，请检查</string>
+    <string name="no_image">您手机中没有一张图片</string>
+    <string name="not_storage">没有外部存储</string>
+    <string name="permission_cancel">取消</string>
+    <string name="permission_message_permission_failed">我们需要的一些权限被您拒绝或者系统发生错误申请失败，请您到设置页面手动授权，否则功能无法正常使用！</string>
+    <string name="permission_message_permission_rationale">您已经拒绝过我们申请授权，请您同意授权，否则功能无法正常使用！</string>
+    <string name="permission_name_calendar">日历</string>
+    <string name="permission_name_camera">相机</string>
+    <string name="permission_name_contacts">通讯录</string>
+    <string name="permission_name_location">位置信息</string>
+    <string name="permission_name_microphone">麦克风</string>
+    <string name="permission_name_phone">电话</string>
+    <string name="permission_name_sensors">身体传感器</string>
+    <string name="permission_name_sms">短信</string>
+    <string name="permission_name_storage">存储空间</string>
+    <string name="permission_resume">继续</string>
+    <string name="permission_setting">去设置</string>
+    <string name="permission_title_permission_failed">权限申请失败</string>
+    <string name="permission_title_permission_rationale">权限已被拒绝</string>
+    <string name="please_select_image">请选中图片</string>
+    <string name="recycler_swipe_click_load_more">Click to load more</string>
+    <string name="recycler_swipe_data_empty">There is no data</string>
+    <string name="recycler_swipe_load_error">Error, please try again</string>
+    <string name="recycler_swipe_load_more_message">Loading, please wait later</string>
+    <string name="recycler_swipe_more_not">No more data</string>
+    <string name="select_image">选择图片</string>
+    <string name="select_video">选择视频</string>
+    <string name="step_channel_name">计步器通知</string>
+    <string name="taking_pictures">拍摄照片</string>
+    <string name="taking_video">拍摄视频</string>
+    <string name="title_notification_bar">当前步数:%1$s</string>
+    <string name="type_apk">APK</string>
+    <string name="type_archive">Archive</string>
+    <string name="type_certificate">Certificate</string>
+    <string name="type_directory">Directory</string>
+    <string name="type_document">File</string>
+    <string name="type_drawing">Picture</string>
+    <string name="type_excel">Spreadsheet</string>
+    <string name="type_image">Image</string>
+    <string name="type_music">Music</string>
+    <string name="type_pdf">PDF document</string>
+    <string name="type_power_point">Presentation</string>
+    <string name="type_video">Video</string>
+    <string name="type_word">Document</string>
+    <string name="video_number">个视频</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/activity_animation</item>
+    </style>
+    <style name="BadgeText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">@dimen/badge_text_size</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginTop">@dimen/badge_top_margin</item>
+        <item name="android:paddingRight">@dimen/badge_width_padding</item>
+        <item name="android:paddingLeft">@dimen/badge_width_padding</item>
+        <item name="android:paddingBottom">@dimen/badge_height_padding</item>
+        <item name="android:paddingTop">@dimen/badge_height_padding</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="BottomDialgoStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/buttom_animation</item>
+    </style>
+    <style name="DialogStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="activity_animation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/right_out</item>
+    </style>
+    <style name="anim_popup_dir">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+    <style name="buttom_animation" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/buttom_in</item>
+        <item name="android:windowExitAnimation">@anim/buttom_out</item>
+    </style>
+    <style name="permission_PermissionActivity" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>

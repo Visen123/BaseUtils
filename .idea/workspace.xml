@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d5d798-636b-49a0-a1ca-1b40771fcd9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/.gitignore" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/blame/" />
@@ -90,8 +90,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
@@ -206,10 +206,10 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="5" weight="0.6388889" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5013495" side_tool="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" visible="true" weight="0.6388889" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5020243" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49865046" weight="0.32894737" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.4979757" weight="0.32894737" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32894737" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
