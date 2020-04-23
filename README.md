@@ -16,7 +16,7 @@
  * Step 2. Add the dependency
     >	dependencies {  
     
-    >	        implementation 'com.github.Visen:BaseUtils-master'  
+    >	         implementation 'com.github.Visen123:BaseUtils:v1.0' 
     
     >	}
  ## 模块功能
