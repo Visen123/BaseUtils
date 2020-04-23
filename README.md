@@ -16,7 +16,7 @@
  * Step 2. Add the dependency
     >	dependencies {  
     
-    >	        implementation 'com.github.hwq7909:BaseTool-master:-SNAPSHOT'  
+    >	        implementation 'com.github.Visen:BaseUtils-master'  
     
     >	}
  ## 模块功能
