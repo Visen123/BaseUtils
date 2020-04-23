@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.yanyiyun.baseutils.R;
-import com.yanyiyun.baseutils.library.tool.ScreenUitl;
+import com.yanyiyun.tool.ScreenUitl;
 
 import java.io.File;
 import java.util.ArrayList;

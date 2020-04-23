@@ -15,11 +15,11 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.request.RequestOptions;
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.activity.BaseActivity;
-import com.yanyiyun.baseutils.library.function.banner.BannerLayout;
-import com.yanyiyun.baseutils.library.function.banner.bean.BannerEntity;
-import com.yanyiyun.baseutils.library.function.banner.interfac.IBannerEntity;
-import com.yanyiyun.baseutils.library.function.banner.interfac.OnBannerClickListener;
-import com.yanyiyun.baseutils.library.function.banner.interfac.OnBannerImgShowListener;
+import com.yanyiyun.function.banner.BannerLayout;
+import com.yanyiyun.function.banner.bean.BannerEntity;
+import com.yanyiyun.function.banner.interfac.IBannerEntity;
+import com.yanyiyun.function.banner.interfac.OnBannerClickListener;
+import com.yanyiyun.function.banner.interfac.OnBannerImgShowListener;
 
 import java.util.ArrayList;
 import java.util.List;

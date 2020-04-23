@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.yanyiyun.baseutils.library.view.EmptyRecyclerView
+    <com.yanyiyun.view.EmptyRecyclerView
         android:id="@+id/list_erv"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    </com.yanyiyun.baseutils.library.view.EmptyRecyclerView>
+    </com.yanyiyun.view.EmptyRecyclerView>
 
     <LinearLayout
         android:id="@+id/directory_empty_view"

@@ -11,11 +11,11 @@ import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.adapter.SwipeMenuRecyclerViewAdapter;
-import com.yanyiyun.baseutils.library.function.BaseToolActivity;
-import com.yanyiyun.baseutils.library.function.screenAdaptation.ScreenAdapterTools;
-import com.yanyiyun.baseutils.library.view.recyclerView.ItemDecoration.DefaultItemDecoration;
-import com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.interfaces.SwipeItemClickListener;
-import com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView;
+import com.yanyiyun.function.BaseToolActivity;
+import com.yanyiyun.function.screenAdaptation.ScreenAdapterTools;
+import com.yanyiyun.view.recyclerView.ItemDecoration.DefaultItemDecoration;
+import com.yanyiyun.view.recyclerView.swipeMenu.interfaces.SwipeItemClickListener;
+import com.yanyiyun.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView;
 
 import java.util.ArrayList;
 

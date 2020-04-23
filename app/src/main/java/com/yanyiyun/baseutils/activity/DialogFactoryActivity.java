@@ -5,10 +5,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
-import com.yanyiyun.baseutils.library.function.dialog.factory.DialogFactory;
-import com.yanyiyun.baseutils.library.function.dialog.product.ConfirmAndCancleDialog;
-import com.yanyiyun.baseutils.library.function.dialog.product.LoadDialog;
-import com.yanyiyun.baseutils.library.function.dialog.product.TextCACD;
+import com.yanyiyun.function.dialog.factory.DialogFactory;
+import com.yanyiyun.function.dialog.product.ConfirmAndCancleDialog;
+import com.yanyiyun.function.dialog.product.LoadDialog;
+import com.yanyiyun.function.dialog.product.TextCACD;
 
 /**
  * 对话框工厂

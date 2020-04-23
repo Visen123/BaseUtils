@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.yanyiyun.baseutils.library.function.banner.BannerViewPager
+    <com.yanyiyun.function.banner.BannerViewPager
         android:id="@+id/vt_banner_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.yanyiyun.baseutils.library.function.banner.BannerPointLayout
+    <com.yanyiyun.function.banner.BannerPointLayout
         android:id="@+id/vt_banner_point"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

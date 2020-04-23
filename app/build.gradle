@@ -40,5 +40,6 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
     implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation files('libs\\lite-orm-1.7.0.jar')
 
 }

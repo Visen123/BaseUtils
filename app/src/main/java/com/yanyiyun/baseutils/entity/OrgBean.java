@@ -1,9 +1,9 @@
 package com.yanyiyun.baseutils.entity;
 
 
-import com.yanyiyun.baseutils.library.function.treeListView.TreeNodeId;
-import com.yanyiyun.baseutils.library.function.treeListView.TreeNodeLabel;
-import com.yanyiyun.baseutils.library.function.treeListView.TreeNodePid;
+import com.yanyiyun.function.treeListView.TreeNodeId;
+import com.yanyiyun.function.treeListView.TreeNodeLabel;
+import com.yanyiyun.function.treeListView.TreeNodePid;
 
 public class OrgBean
 {

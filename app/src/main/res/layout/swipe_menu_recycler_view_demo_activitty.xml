@@ -7,11 +7,11 @@
 
     <include layout="@layout/head" />
 
-    <com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView
+    <com.yanyiyun.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView
         android:id="@+id/list_smrv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="none">
 
-    </com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView>
+    </com.yanyiyun.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView>
 </LinearLayout>

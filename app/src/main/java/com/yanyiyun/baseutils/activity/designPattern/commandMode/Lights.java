@@ -1,6 +1,6 @@
 package com.yanyiyun.baseutils.activity.designPattern.commandMode;
 
-import com.yanyiyun.baseutils.library.tool.log;
+import com.yanyiyun.tool.log;
 
 /**
  * 接收者

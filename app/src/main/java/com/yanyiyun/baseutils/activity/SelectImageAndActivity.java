@@ -9,9 +9,9 @@ import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.adapter.SelectImageAndAdapter;
-import com.yanyiyun.baseutils.library.function.selectImage.AndSelectImage;
-import com.yanyiyun.baseutils.library.function.selectImage.ItemEntity;
-import com.yanyiyun.baseutils.library.tool.log;
+import com.yanyiyun.function.selectImage.AndSelectImage;
+import com.yanyiyun.function.selectImage.ItemEntity;
+import com.yanyiyun.tool.log;
 
 import java.io.File;
 import java.io.IOException;

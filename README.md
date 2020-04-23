@@ -26,7 +26,7 @@
 [AndroidScreenAdaptation 屏幕适配](https://github.com/lizhibei/BaseTool/wiki/AndroidScreenAdaptation)&ensp;  &ensp;
 [AndPermission 动态获取权限](https://github.com/lizhibei/BaseTool/wiki/AndPermission)&ensp;  &ensp;
 [Zxing(二维码）](https://github.com/lizhibei/BaseTool/wiki/%E4%BA%8C%E7%BB%B4%E7%A0%81)&ensp;  &ensp; <br/>
-[本地记步](https://github.com/lizhibei/BaseTool/wiki/%E6%9C%AC%E5%9C%B0%E8%AE%B0%E6%AD%A5)&ensp;  &ensp;
+[StepArcView本地记步数](https://github.com/Visen123/BaseUtils/tree/master/app/src/main/java/com/yanyiyun/baseutils/step)&ensp;  &ensp;
  ## 工具类
 [ScreenUtil 屏幕工具类](https://github.com/lizhibei/BaseTool/wiki/ScreenUitl) &ensp;  &ensp;
 [CameraTool 相机工具类](https://github.com/lizhibei/BaseTool/wiki/CameraTool)&ensp;  &ensp;

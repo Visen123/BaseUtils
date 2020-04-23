@@ -8,7 +8,7 @@
 
     <include layout="@layout/head" />
 
-    <com.yanyiyun.baseutils.library.view.CountDownButton
+    <com.yanyiyun.view.CountDownButton
         android:id="@+id/cd_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

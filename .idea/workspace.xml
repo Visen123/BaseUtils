@@ -6,31 +6,386 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d5d798-636b-49a0-a1ca-1b40771fcd9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BaseUtils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___F__AppProject_BaseUtils_app_libs_lite_orm_1_7_0_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/libs/lite-orm-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/CommonAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/CommonViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/HistoryActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/MyStepActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/SetPlanActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/StepArcView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/UpdateStepActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/UpdateUiCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepCountListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepValuePassListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/bean/StepData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/config/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepsDetectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/CountDownTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/DbUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/SharedPreferencesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/StepCountModeDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_empty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_empty_sel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_empty_selecter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cb_plan_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac_exercise_plan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ac_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mystep.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_update_step.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/arrow_back_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/cb_normal_plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/cb_selected_plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/home_question_mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/home_statistical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/interfaces/IStepCountListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/interfaces/SwipeMenuCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/interfaces/SwipeMenuItemClickListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BaseMyUtils.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___F__AppProject3_2_BaseMyUtils_library_libs_core_3_3_3_jar_unspecified_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___F__AppProject3_2_BaseUtils_library_libs_core_3_3_3_jar_unspecified_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___F__AppProject3_2_BaseUtils_library_libs_core_3_3_3_jar_unspecified_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___F__AppProject_BaseUtils_library_libs_core_3_3_3_jar_unspecified_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yanzhenjie_permission_1_0_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yanzhenjie_permission_1_0_6_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/select_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/select_white.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/selector_green.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_green.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/selector_purple.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_purple.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/selector_red.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_red.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/CountDownButtonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/CountDownButtonActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/DialogFactoryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/DialogFactoryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/FilePickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/FilePickerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/LiveDataDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/LiveDataDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/SelectImageAndActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/SelectImageAndActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/StepDownActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/StepDownActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/application/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/application/BaseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/designPattern/commandMode/Lights.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/designPattern/commandMode/Lights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/okhttp/OkHttpDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/okhttp/OkHttpDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/okio/OkioDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/okio/OkioDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/retrofit/RetrofitDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/retrofit/RetrofitDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/BannerLayoutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/BannerLayoutActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/BottomNavigationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/BottomNavigationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/CheckViewDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/CheckViewDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/NumberProgressBarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/NumberProgressBarActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/chart/ChartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/chart/ChartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/chart/PieChartViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/chart/PieChartViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/DefaultRefreshLoadActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/DefaultRefreshLoadActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/DefineLoadMoreActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/DefineLoadMoreActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/DragSwipeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/DragSwipeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/RecyclerViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/RecyclerViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/SwipeMenuActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/SwipeMenuActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/FilePickerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/FilePickerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/SelectImageAndAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/SelectImageAndAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/SimpleTreeListViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/SimpleTreeListViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/SwipeMenuRecyclerViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/adapter/SwipeMenuRecyclerViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/entity/FileBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/entity/FileBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/entity/OrgBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/entity/OrgBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/fragment/FilePickerFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/fragment/FilePickerFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/util/BarterLoginDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/util/BarterLoginDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/util/FilePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/util/FilePicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/animview_demo_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/animview_demo_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bannerlayou_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bannerlayou_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/barter_login_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/barter_login_content.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom_navigation_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom_navigation_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/checkview_demo_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/checkview_demo_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/circleimageview_demo_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/circleimageview_demo_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/count_down_button_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/count_down_button_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/default_refresh_load_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/default_refresh_load_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/file_picker_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/file_picker_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/number_progress_bar_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/number_progress_bar_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pei_chart_view_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/pei_chart_view_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/photoview_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/photoview_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/scrollview_container_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/scrollview_container_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/swipe_menu_recycler_view_demo_activitty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/swipe_menu_recycler_view_demo_activitty.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/library/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library/library.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/BaseToolActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/BaseToolActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/BaseToolFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/BaseToolFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/VersionUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/VersionUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/BannerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/BannerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/BannerLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/BannerLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/BannerPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/BannerPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/BannerPointLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/BannerPointLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/BannerViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/BannerViewPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/bean/BannerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/bean/BannerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/interfac/IBannerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/interfac/IBannerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/interfac/OnBannerClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/interfac/OnBannerClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/interfac/OnBannerImgShowListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/banner/interfac/OnBannerImgShowListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/BottomNavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/BottomNavigationBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/BottomNavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/BottomNavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/BottomNavigationItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/BottomNavigationItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/badgeitem/BadgeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/badgeitem/BadgeItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/badgeitem/BadgeTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/badgeitem/BadgeTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/badgeitem/ShapeBadgeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/badgeitem/ShapeBadgeItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/badgeitem/TextBadgeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/badgeitem/TextBadgeItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/behaviour/BottomNavBarFabBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/behaviour/BottomVerticalScrollBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/behaviour/VerticalScrollingBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/behaviour/VerticalScrollingBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/navigationtab/BottomNavigationTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/navigationtab/BottomNavigationTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/navigationtab/FixedBottomNavigationTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/navigationtab/FixedBottomNavigationTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/bottomnavigation/navigationtab/ShiftingBottomNavigationTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/bottomnavigation/navigationtab/ShiftingBottomNavigationTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/factory/DialogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/factory/DialogFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/product/ConfirmAndCancleDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/product/ConfirmAndCancleDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/product/ConfirmAndCancleTextContentDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/product/ConfirmAndCancleTextContentDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/product/LoadDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/product/LoadDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/product/PermissionDeniedDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/product/PermissionDeniedDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/product/PermissionHintDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/product/PermissionHintDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/product/PermissionRationaleDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/product/PermissionRationaleDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/dialog/product/TextCACD.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/dialog/product/TextCACD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/mvp/BasePresenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/mvp/BasePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/mvp/IBaseView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/mvp/IBaseView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/mvvm/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/mvvm/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/AddParameterAndHeaderInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/AddParameterAndHeaderInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/BaseNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/BaseNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/BaseOkHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/BaseOkHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/CodeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/CodeBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/IBaseCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/IBaseCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/MyGsonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/MyGsonConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/MyGsonConverterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/MyGsonConverterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/MySubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/MySubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/ParseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/ParseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/PaseGsonNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/PaseGsonNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/network/ResultBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/network/ResultBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/AndPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/AndPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/LRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/LRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/MRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/MRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/PermissionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/PermissionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/Rationale.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/Rationale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/RequestExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/RequestExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/SettingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/SettingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/AddVoicemailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/AddVoicemailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/CalendarReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/CalendarReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/CalendarWriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/CalendarWriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/CallLogReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/CallLogReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/CallLogWriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/CallLogWriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/CameraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/CameraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/ContactsReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/ContactsReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/ContactsWriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/ContactsWriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/DoubleChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/DoubleChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/LocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/LocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/PermissionChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/PermissionChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/PermissionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/PermissionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/PhoneStateReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/PhoneStateReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/RecordAudioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/RecordAudioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/SensorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/SensorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/SipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/SipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/SmsReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/SmsReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/StandardChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/StandardChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/StorageReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/StorageReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/StorageWriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/StorageWriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/checker/StrictChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/checker/StrictChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/dialog/PermissionDeniedDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/dialog/PermissionDeniedDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/dialog/PermissionHintDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/dialog/PermissionHintDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/dialog/PermissionRationaleDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/dialog/PermissionRationaleDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/setting/PermissionSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/setting/PermissionSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/source/AppActivitySource.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/source/AppActivitySource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/source/ContextSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/source/ContextSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/source/FragmentSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/source/FragmentSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/source/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/source/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/permission/source/SupportFragmentSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/permission/source/SupportFragmentSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/ScreenAdapterTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/ScreenAdapterTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/ViewUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/ViewUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/conversion/CustomConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/conversion/CustomConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/conversion/IConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/conversion/IConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/conversion/SimpleConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/conversion/SimpleConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/loadviewhelper/AbsLoadViewHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/loadviewhelper/AbsLoadViewHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/loadviewhelper/ILoadViewHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/loadviewhelper/ILoadViewHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/screenAdaptation/loadviewhelper/LoadViewHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/screenAdaptation/loadviewhelper/LoadViewHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/AndSelectImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/AndSelectImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/Floder.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/Floder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/IBaseItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/IBaseItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/ImageFolderComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/ImageFolderComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/ItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/ItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/SelectFileAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/SelectFileAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/SelectImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/SelectImageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/selectImage/SelectImageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/selectImage/SelectImageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/BaseClickBroadcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/BaseClickBroadcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/BaseToolStepService.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/BaseToolStepService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/DBConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/DBConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/NotificationApiCompat.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/NotificationApiCompat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/NotificationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/NotificationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/PreferencesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/PreferencesHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/SportStepJsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/SportStepJsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/StepCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/StepCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/StepDBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/StepDBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/StepData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/StepData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/StepDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/StepDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/interfaces/IStepCountListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/interfaces/IStepDBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/interfaces/IStepDBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/interfaces/IStepValuePassListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/interfaces/IStepValuePassListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/stepDown/interfaces/IUpdateUiCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/interfaces/IUpdateUiCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/treeListView/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/treeListView/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/treeListView/TreeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/treeListView/TreeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/treeListView/TreeListViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/treeListView/TreeListViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/treeListView/TreeNodeId.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/treeListView/TreeNodeId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/treeListView/TreeNodeLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/treeListView/TreeNodeLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/treeListView/TreeNodePid.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/treeListView/TreeNodePid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/IBaseCaptureView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/IBaseCaptureView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/ICaptureView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/ICaptureView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/BaseToolBaseCaptureActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/BaseToolBaseCaptureActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/BaseToolCaptureActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/BaseToolCaptureActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/BeepManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/BeepManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/CaptureActivityHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/CaptureActivityHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/FinishListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/FinishListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/InactivityTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/InactivityTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/Intents.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/Intents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/bean/ZxingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/bean/ZxingConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/camera/AutoFocusManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/camera/AutoFocusManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/camera/CameraConfigurationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/camera/CameraConfigurationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/camera/CameraManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/camera/CameraManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/camera/OpenCameraInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/camera/OpenCameraInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/camera/PreviewCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/camera/PreviewCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/common/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/decode/BitmapLuminanceSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/decode/BitmapLuminanceSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/decode/DecodeFormatManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/decode/DecodeFormatManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/decode/DecodeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/decode/DecodeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/decode/DecodeImgCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/decode/DecodeImgCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/decode/DecodeImgThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/decode/DecodeImgThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/decode/DecodeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/decode/DecodeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/decode/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/decode/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/encode/CodeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/encode/CodeCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/view/ViewfinderResultPointCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/view/ViewfinderResultPointCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/view/ViewfinderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/view/ViewfinderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/AnimationTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/AnimationTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/ApplicationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/ApplicationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/CameraTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/CameraTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/CollectionProcessTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/CollectionProcessTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/HtmlSpanned.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/HtmlSpanned.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/ImageProgressTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/ImageProgressTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/LocalDataUitlTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/LocalDataUitlTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/NotificationsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/NotificationsUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/NumberTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/NumberTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/PinyinUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/PinyinUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/RegularUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/RegularUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/ScreenUitl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/ScreenUitl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/SoftInputTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/SoftInputTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/StringTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/StringTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/SystemUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/SystemUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/UnitConversionTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/UnitConversionTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/comparator/FileComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/comparator/FileComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/comparator/FileModityTimeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/comparator/FileModityTimeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/comparator/StringComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/comparator/StringComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/file/FileTypeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/file/FileTypeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/file/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/file/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/CompositeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/CompositeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/HiddenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/HiddenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/PatternFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/PatternFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/inputFilter/BlankSpaceInputFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/inputFilter/BlankSpaceInputFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/inputFilter/CapitalInputFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/inputFilter/CapitalInputFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/inputFilter/DecimalNumberInputFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/inputFilter/DecimalNumberInputFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/inputFilter/LengthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/inputFilter/LengthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/filter/inputFilter/NumberLimitInputFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/filter/inputFilter/NumberLimitInputFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/log.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/AnimView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/AnimView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/CircleImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/CircleImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/CircleTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/CircleTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/CountDownButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/CountDownButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/EmptyRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/EmptyRecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/IconView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/IconView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/NumberProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/NumberProgressBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/RoundImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/RoundImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/ScrollViewContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/ScrollViewContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/animation/ChartAnimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/animation/ChartAnimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/chart/Chart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/chart/Chart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/chart/PieChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/chart/PieChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/chart/PieRadarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/chart/PieRadarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/chart/RadarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/chart/RadarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/compute/ComputePie.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/compute/ComputePie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/data/AxisData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/data/AxisData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/data/BaseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/data/BaseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/data/ChartData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/data/ChartData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/data/PieAxisData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/data/PieAxisData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/data/PieData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/data/PieData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/data/RadarAxisData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/data/RadarAxisData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iChart/IChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iChart/IChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iChart/IPieChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iChart/IPieChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iChart/IPieRadarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iChart/IPieRadarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iChart/IRadarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iChart/IRadarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iData/IAxisData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iData/IAxisData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iData/IBaseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iData/IBaseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iData/IChartData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iData/IChartData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iData/IPieAxisData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iData/IPieAxisData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iData/IPieData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iData/IPieData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iData/IRadarAxisData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iData/IRadarAxisData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/iData/IRadarData.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/iData/IRadarData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/interfaces/listener/TouchListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/interfaces/listener/TouchListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/render/ChartRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/render/ChartRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/render/PieChartRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/render/PieChartRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/chart/render/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/chart/render/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/checkView/CheckableImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/checkView/CheckableImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/checkView/CheckableLinearLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/checkView/CheckableLinearLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/CustomGestureDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/CustomGestureDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnGestureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnGestureListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnMatrixChangedListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnMatrixChangedListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnOutsidePhotoTapListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnOutsidePhotoTapListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnPhotoTapListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnPhotoTapListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnScaleChangedListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnScaleChangedListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnSingleFlingListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnSingleFlingListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnViewDragListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnViewDragListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/OnViewTapListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/OnViewTapListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/PhotoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/PhotoView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/photoview/PhotoViewAttacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/photoview/PhotoViewAttacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/ItemDecoration/ColorDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/ItemDecoration/ColorDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/ItemDecoration/DefaultItemDecoration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/ItemDecoration/DefaultItemDecoration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/ItemDecoration/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/ItemDecoration/Drawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/StickyNestedScrollView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/StickyNestedScrollView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/adapter/SwipeAdapterWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/adapter/SwipeAdapterWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/entity/SwipeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/entity/SwipeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/entity/SwipeMenuBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/entity/SwipeMenuBridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/entity/SwipeMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/entity/SwipeMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/interfaces/SwipeItemClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/interfaces/SwipeItemClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/interfaces/SwipeItemLongClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/interfaces/SwipeItemLongClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/interfaces/SwipeMenuCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/interfaces/SwipeMenuItemClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/interfaces/SwipeSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/interfaces/SwipeSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/touch/DefaultItemTouchHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/touch/DefaultItemTouchHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/touch/DefaultItemTouchHelperCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/touch/DefaultItemTouchHelperCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/touch/OnItemMoveListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/touch/OnItemMoveListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/touch/OnItemMovementListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/touch/OnItemMovementListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/touch/OnItemStateChangedListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/touch/OnItemStateChangedListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/util/SwipeHorizontal.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/util/SwipeHorizontal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/util/SwipeLeftHorizontal.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/util/SwipeLeftHorizontal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/util/SwipeRightHorizontal.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/util/SwipeRightHorizontal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/view/DefaultLoadMoreView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/view/DefaultLoadMoreView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/view/SwipeMenuLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/view/SwipeMenuLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/view/SwipeMenuRecyclerView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/view/SwipeMenuRecyclerView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/view/SwipeMenuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/view/SwipeMenuView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/res/layout/banner_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/res/layout/banner_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/res/layout/basetool_header_px.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/res/layout/basetool_header_px.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/res/layout/fixed_bottom_navigation_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/res/layout/fixed_bottom_navigation_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/res/layout/recycler_swipe_view_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/res/layout/recycler_swipe_view_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/res/layout/shifting_bottom_navigation_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/res/layout/shifting_bottom_navigation_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/main/res/layout/zxing_content.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/main/res/layout/zxing_content.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/blame/" />
@@ -85,7 +440,26 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>baseutils.library</find>
+      <find>baseutils.library.</find>
+      <find>ConfirmCancleDialog</find>
+      <find>BarterLoginDialog</find>
+      <find>25.3.1</find>
+      <find>activity_update_step</find>
+      <find>com.wlxapp.mhwjs</find>
+      <find>getContext()</find>
+      <find>@dimen/sp_16</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>28.0.0</replace>
+      <replace>com.yanyiyun.baseutils</replace>
+      <replace>this</replace>
+      <replace>16sp</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,10 +467,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/bean/ZxingConfig.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/BeepManager.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/camera/CameraManager.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/view/ViewfinderView.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/zxing/android/BaseToolCaptureActivity.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/file/FileTypeUtil.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/SystemUtil.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/tool/UnitConversionTool.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/CircleImageView.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/CircleTextView.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/CountDownButton.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/IconView.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/NumberProgressBar.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/view/SwipeMenuLayout.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/view/DefaultLoadMoreView.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/RoundImageView.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/treeListView/TreeHelper.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/view/recyclerView/swipeMenu/adapter/SwipeAdapterWrapper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/checkview_demo_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/util/BarterLoginDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/CountDownButtonActivity.java" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/function/stepDown/BaseToolStepService.java" />
+        <option value="$PROJECT_DIR$/lrsmj/build.gradle" />
+        <option value="$PROJECT_DIR$/jpush/build.gradle" />
+        <option value="$PROJECT_DIR$/mygeneral/build.gradle" />
+        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/step/accelerometer/StepDetector.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/BaseToolCaptureActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/MainActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/bean/StepData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_update_step.xml" />
+        <option value="$PROJECT_DIR$/lrsmj/src/main/java/com/wlxapp/mhwjs/view/StepArcView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/StepArcView.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/UpdateStepActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/SetPlanActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/ac_exercise_plan.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/CommonAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/CommonViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/HistoryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepDetector.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepsDetectService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/PaintActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_paint.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/DoodleView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_step.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/MyStepActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/application/BaseApplication.java" />
       </list>
     </option>
   </component>
@@ -113,6 +534,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BaseUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseUtils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseUtils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lrsmj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseUtils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lrsmj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseUtils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseUtils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="lrsmj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -125,34 +575,32 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BaseUtils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaseUtils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="BaseUtils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaseUtils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\AppProject3.2\BaseUtils\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yanyiyun" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AppProject\BaseUtils\app\src\main\java\com\yanyiyun\baseutils\step" />
+      <recent name="F:\AppProject\BaseUtils\app\src\main\res\layout" />
+      <recent name="F:\AppProject\BaseUtils\app\src\main\java\com\yanyiyun\baseutils\step\service" />
+      <recent name="F:\AppProject\BaseUtils\app\src\main\res\drawable" />
+      <recent name="F:\AppProject\BaseUtils\app\src\main\res\mipmap-hdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,7 +694,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20445344" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19635628" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -255,15 +703,15 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.5628655" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49730095" weight="0.51970804" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.6388889" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5026991" side_tool="true" weight="0.47953215" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5026991" side_tool="true" weight="0.51970804" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49730095" weight="0.47807017" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32894737" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.4959514" weight="0.47737226" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.5912409" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -276,26 +724,189 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/build.gradle">
+    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/step/service/StepService.java" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/yanyiyun/baseutils/activity/okhttp/OkHttpDemoActivity_ViewBinding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-774" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="125">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/banner/BannerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/lrsmj/src/main/java/com/wlxapp/mhwjs/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="250">
+          <caret line="173" column="42" selection-start-line="173" selection-start-column="42" selection-end-line="173" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lrsmj/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepCountListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepValuePassListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/bean/StepData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/config/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/CountDownTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/SharedPreferencesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/StepCountModeDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/UpdateUiCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lrsmj/build/intermediates/res/merged/debug/mipmap-xxhdpi/home_statistical.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lrsmj/src/main/java/com/wlxapp/mhwjs/view/StepArcView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4050">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lrsmj/src/main/java/com/wlxapp/mhwjs/activity/UpdateStepActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lrsmj/src/main/res/layout/activity_update_step.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/main/res/layout/head_top_basetool.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/StepArcView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/cb_plan_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_empty.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_empty_sel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ac_exercise_plan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="168" column="43" lean-forward="true" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ac_history.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/HistoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-791">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/CommonAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -303,169 +914,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/tool/AnimationTool.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_empty_selecter.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/CommonViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/accelerometer/StepDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3823">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepListener.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepDetector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/AnimView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepsDetectService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/layout/banner_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/layout/zxing_self_content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/layout/confirm_and_cancle_dialog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1473" />
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/values-zh-rtw/strings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/values-zh-RHK/strings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/view/SwipeMenuRecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/default_refresh_load_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="13" column="84" lean-forward="true" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/BaseToolBaseCaptureActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/BaseToolActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/a867bae400b9a1c3263c1d00bb22378d/jars/classes.jar!/android/support/v4/app/FragmentActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="431" column="16" selection-start-line="431" selection-start-column="16" selection-end-line="431" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/function/zxing/android/BaseToolCaptureActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#574#748#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/BaseActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/entity/SwipeMenuItem.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/StepDownActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="125">
+          <caret line="32" column="53" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/src/main/java/com/yanyiyun/baseutils/library/view/recyclerView/swipeMenu/adapter/SwipeAdapterWrapper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/DoodleView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        <state relative-caret-position="-550">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_action_add.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/colors.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_green.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/PaintActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="34">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_paint.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mystep.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="596">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_update_step.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/UpdateStepActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/selfview/recyclerview/SwipeMenuActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/SetPlanActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="-758">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/MyStepActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="124" column="56" selection-start-line="124" selection-start-column="56" selection-end-line="124" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="250">
+          <caret line="158" column="52" selection-start-line="158" selection-start-column="38" selection-end-line="158" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/activity/application/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/service/StepService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="145" column="15" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2311#2523#0" expanded="true" />
-            <element signature="e#2522#2523#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yanyiyun/baseutils/step/utils/DbUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

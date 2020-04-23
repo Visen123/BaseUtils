@@ -21,13 +21,14 @@ import com.yanyiyun.baseutils.activity.okio.OkioDemoActivity;
 import com.yanyiyun.baseutils.activity.selfview.SelfViewActivity;
 import com.yanyiyun.baseutils.adapter.MainAdapter;
 import com.yanyiyun.baseutils.entity.MainItem;
-import com.yanyiyun.baseutils.library.function.screenAdaptation.ScreenAdapterTools;
-import com.yanyiyun.baseutils.library.function.zxing.android.BaseToolCaptureActivity;
-import com.yanyiyun.baseutils.library.function.zxing.common.Constant;
-import com.yanyiyun.baseutils.library.tool.NotificationsUtils;
-import com.yanyiyun.baseutils.library.tool.ScreenUitl;
-import com.yanyiyun.baseutils.library.tool.filter.inputFilter.DecimalNumberInputFilter;
-import com.yanyiyun.baseutils.library.tool.log;
+import com.yanyiyun.baseutils.step.MyStepActivity;
+import com.yanyiyun.function.screenAdaptation.ScreenAdapterTools;
+import com.yanyiyun.function.zxing.android.BaseToolCaptureActivity;
+import com.yanyiyun.function.zxing.common.Constant;
+import com.yanyiyun.tool.NotificationsUtils;
+import com.yanyiyun.tool.ScreenUitl;
+import com.yanyiyun.tool.filter.inputFilter.DecimalNumberInputFilter;
+import com.yanyiyun.tool.log;
 import com.yanyiyun.baseutils.util.FilePicker;
 
 import java.util.ArrayList;
@@ -154,7 +155,8 @@ public class MainActivity extends BaseActivity  {
                 break;
                 //本地记步
             case 5:
-                startIntent(mContext,StepDownActivity.class);
+                //startIntent(mContext,StepDownActivity.class);
+                startIntent(mContext, MyStepActivity.class);
                 break;
                 //okhttp
             case 6:

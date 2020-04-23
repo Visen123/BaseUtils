@@ -4,9 +4,11 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.yanyiyun.baseutils.R;
-import com.yanyiyun.baseutils.library.view.CountDownButton;
+import com.yanyiyun.baseutils.util.ConfirmCancleDialog;
+import com.yanyiyun.view.CountDownButton;
 import com.yanyiyun.baseutils.util.BarterLoginDialog;
 
 /**
@@ -35,6 +37,17 @@ public class CountDownButtonActivity extends BaseActivity implements View.OnClic
         cd_button.setOnClickListener(this);
 
         barterLoginDialog=new BarterLoginDialog(this);
+        barterLoginDialog.withListener(new ConfirmCancleDialog.OnCancleAndConfirmListener() {
+            @Override
+            public void cancle() {
+                Toast.makeText(mContext,"取消",Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void confirm() {
+                Toast.makeText(mContext,"确定",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

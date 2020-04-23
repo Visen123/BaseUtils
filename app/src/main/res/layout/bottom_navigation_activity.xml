@@ -13,10 +13,10 @@
 
     </FrameLayout>
 
-    <com.yanyiyun.baseutils.library.function.bottomnavigation.BottomNavigationBar
+    <com.yanyiyun.function.bottomnavigation.BottomNavigationBar
         android:id="@+id/bottom_bnv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    </com.yanyiyun.baseutils.library.function.bottomnavigation.BottomNavigationBar>
+    </com.yanyiyun.function.bottomnavigation.BottomNavigationBar>
 </LinearLayout>

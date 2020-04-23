@@ -6,10 +6,11 @@ import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.yanyiyun.baseutils.R;
-import com.yanyiyun.baseutils.library.function.screenAdaptation.ScreenAdapterTools;
-import com.yanyiyun.baseutils.library.view.CountDownButton;
+import com.yanyiyun.function.screenAdaptation.ScreenAdapterTools;
+import com.yanyiyun.view.CountDownButton;
 
 /**
  * 铛铛易物  绑定手机号对话框
@@ -18,13 +19,15 @@ public class BarterLoginDialog extends ConfirmCancleDialog {
 
     private EditText mobile_et,code_et;
     public CountDownButton get_code_cdb;
+    private Context mcontext;
 
     public BarterLoginDialog(@NonNull Context context) {
         super(context);
+        mcontext = context;
         View view=LayoutInflater.from(context).inflate(R.layout.barter_login_content,null);
         ScreenAdapterTools.getInstance().loadView(view);
         setCancleText("绑定");
-        setCancleTextColor(Color.WHITE);
+        setCancleTextColor(Color.GRAY);
 //        setCancleBackground(R.drawable.activity_area_select_shape01);
         setConfirmText("暂不绑定");
 //        setConfirmTextColor(context.getResources().getColor(R.color.load_color));

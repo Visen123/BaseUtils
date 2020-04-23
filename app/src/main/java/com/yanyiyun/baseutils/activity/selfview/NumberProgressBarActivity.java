@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.activity.BaseActivity;
-import com.yanyiyun.baseutils.library.view.NumberProgressBar;
+import com.yanyiyun.view.NumberProgressBar;
 
 import java.util.Timer;
 import java.util.TimerTask;

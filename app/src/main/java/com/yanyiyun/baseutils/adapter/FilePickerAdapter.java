@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
-import com.yanyiyun.baseutils.library.tool.file.FileTypeUtil;
+import com.yanyiyun.tool.file.FileTypeUtil;
 
 import java.io.File;
 import java.util.List;

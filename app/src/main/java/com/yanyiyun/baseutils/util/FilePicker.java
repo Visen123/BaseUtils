@@ -5,9 +5,9 @@ import android.app.Fragment;
 import android.content.Intent;
 
 import com.yanyiyun.baseutils.activity.FilePickerActivity;
-import com.yanyiyun.baseutils.library.tool.filter.CompositeFilter;
-import com.yanyiyun.baseutils.library.tool.filter.HiddenFilter;
-import com.yanyiyun.baseutils.library.tool.filter.PatternFilter;
+import com.yanyiyun.tool.filter.CompositeFilter;
+import com.yanyiyun.tool.filter.HiddenFilter;
+import com.yanyiyun.tool.filter.PatternFilter;
 
 import java.io.FileFilter;
 import java.util.ArrayList;

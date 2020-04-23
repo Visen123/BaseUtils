@@ -7,12 +7,12 @@
 
     <include layout="@layout/head" />
 
-    <com.yanyiyun.baseutils.library.view.ScrollViewContainer
+    <com.yanyiyun.view.ScrollViewContainer
         android:id="@+id/content_svc"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <include layout="@layout/scrollview_container_one" />
         <include layout="@layout/scrollview_container_two" />
-    </com.yanyiyun.baseutils.library.view.ScrollViewContainer>
+    </com.yanyiyun.view.ScrollViewContainer>
 </LinearLayout>

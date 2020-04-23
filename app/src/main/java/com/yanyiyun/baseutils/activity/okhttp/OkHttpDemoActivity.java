@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.activity.BaseActivity;
-import com.yanyiyun.baseutils.library.function.screenAdaptation.ScreenAdapterTools;
-import com.yanyiyun.baseutils.library.tool.log;
+import com.yanyiyun.function.screenAdaptation.ScreenAdapterTools;
+import com.yanyiyun.tool.log;
 
 import java.io.File;
 import java.io.IOException;

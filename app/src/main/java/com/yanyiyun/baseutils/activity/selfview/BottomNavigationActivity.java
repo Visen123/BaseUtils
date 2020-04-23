@@ -8,9 +8,9 @@ import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.activity.BaseActivity;
-import com.yanyiyun.baseutils.library.function.bottomnavigation.BottomNavigationBar;
-import com.yanyiyun.baseutils.library.function.bottomnavigation.BottomNavigationItem;
-import com.yanyiyun.baseutils.library.function.bottomnavigation.badgeitem.TextBadgeItem;
+import com.yanyiyun.function.bottomnavigation.BottomNavigationBar;
+import com.yanyiyun.function.bottomnavigation.BottomNavigationItem;
+import com.yanyiyun.function.bottomnavigation.badgeitem.TextBadgeItem;
 
 /**
  * BottomNavigationBar

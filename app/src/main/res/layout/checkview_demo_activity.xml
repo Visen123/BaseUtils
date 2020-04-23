@@ -7,16 +7,17 @@
 
     <include layout="@layout/head" />
 
-    <com.yanyiyun.baseutils.library.view.checkView.CheckableLinearLayout
+    <com.yanyiyun.view.checkView.CheckableLinearLayout
         android:id="@+id/check_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.dengjinwen.basetool.library.view.checkView.CheckableImageView
+        <com.yanyiyun.view.checkView.CheckableImageView
             android:id="@+id/item_iv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal" />
-    </com.yanyiyun.baseutils.library.view.checkView.CheckableLinearLayout>
+
+    </com.yanyiyun.view.checkView.CheckableLinearLayout>
 </LinearLayout>

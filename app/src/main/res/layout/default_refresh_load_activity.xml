@@ -11,12 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView
+        <com.yanyiyun.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView
             android:id="@+id/list_lv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollbars="none">
 
-        </com.yanyiyun.baseutils.library.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView>
+        </com.yanyiyun.view.recyclerView.swipeMenu.view.SwipeMenuRecyclerView>
     </android.support.v4.widget.SwipeRefreshLayout>
 </LinearLayout>

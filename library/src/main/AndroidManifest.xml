@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yanyiyun.baseutils.library">
+    package="com.yanyiyun">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -31,24 +31,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.yanyiyun.baseutils.library.function.selectImage.SelectImageActivity"
+            android:name="com.yanyiyun.function.selectImage.SelectImageActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity
-            android:name="com.yanyiyun.baseutils.library.function.permission.PermissionActivity"
+            android:name="com.yanyiyun.function.permission.PermissionActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="standard"
             android:theme="@style/permission_PermissionActivity"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
         <activity
-            android:name="com.yanyiyun.baseutils.library.function.zxing.android.BaseToolCaptureActivity"
+            android:name="com.yanyiyun.function.zxing.android.BaseToolCaptureActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
 
         <service
-            android:name="com.yanyiyun.baseutils.library.function.stepDown.BaseToolStepService"
+            android:name="com.yanyiyun.function.stepDown.BaseToolStepService"
             android:enabled="true"
             android:exported="true" />
     </application>

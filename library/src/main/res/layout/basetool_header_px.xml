@@ -78,7 +78,7 @@
                 android:src="@drawable/czg_gwc"
                 android:visibility="visible" />
 
-            <com.yanyiyun.baseutils.library.view.CircleTextView
+            <com.yanyiyun.view.CircleTextView
                 android:id="@+id/top_right_text_ctv"
                 android:layout_width="30px"
                 android:layout_height="30px"

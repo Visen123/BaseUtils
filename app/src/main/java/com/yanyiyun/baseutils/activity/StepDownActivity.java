@@ -12,10 +12,10 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
-import com.yanyiyun.baseutils.library.function.screenAdaptation.ScreenAdapterTools;
-import com.yanyiyun.baseutils.library.function.stepDown.BaseToolStepService;
-import com.yanyiyun.baseutils.library.function.stepDown.NotificationHelper;
-import com.yanyiyun.baseutils.library.function.stepDown.interfaces.IUpdateUiCallBack;
+import com.yanyiyun.function.screenAdaptation.ScreenAdapterTools;
+import com.yanyiyun.function.stepDown.BaseToolStepService;
+import com.yanyiyun.function.stepDown.NotificationHelper;
+import com.yanyiyun.function.stepDown.interfaces.IUpdateUiCallBack;
 
 /**
  * 本地记步

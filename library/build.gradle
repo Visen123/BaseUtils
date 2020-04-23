@@ -47,4 +47,5 @@ dependencies {
 
     //rxjava
     compileOnly 'io.reactivex:rxandroid:1.2.0'
+    
 }

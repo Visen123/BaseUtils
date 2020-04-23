@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.activity.BaseActivity;
-import com.yanyiyun.baseutils.library.view.checkView.CheckableImageView;
-import com.yanyiyun.baseutils.library.view.checkView.CheckableLinearLayout;
+import com.yanyiyun.view.checkView.CheckableImageView;
+import com.yanyiyun.view.checkView.CheckableLinearLayout;
 
 public class CheckViewDemoActivity extends BaseActivity implements View.OnClickListener{
     private TextView head_text_title;

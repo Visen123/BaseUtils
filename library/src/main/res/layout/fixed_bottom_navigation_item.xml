@@ -24,7 +24,7 @@
             android:gravity="center"
             android:scaleType="fitXY" />
 
-        <com.yanyiyun.baseutils.library.function.bottomnavigation.badgeitem.BadgeTextView
+        <com.yanyiyun.function.bottomnavigation.badgeitem.BadgeTextView
             android:id="@+id/fixed_bottom_navigation_badge"
             style="@style/BadgeText"
             android:layout_width="wrap_content"

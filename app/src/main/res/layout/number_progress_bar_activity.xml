@@ -8,7 +8,7 @@
 
     <include layout="@layout/head" />
 
-    <com.yanyiyun.baseutils.library.view.NumberProgressBar
+    <com.yanyiyun.view.NumberProgressBar
         android:id="@+id/progress_npb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

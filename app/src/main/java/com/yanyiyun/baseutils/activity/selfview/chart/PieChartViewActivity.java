@@ -7,10 +7,10 @@ import android.widget.TextView;
 
 import com.yanyiyun.baseutils.R;
 import com.yanyiyun.baseutils.activity.BaseActivity;
-import com.yanyiyun.baseutils.library.function.screenAdaptation.ScreenAdapterTools;
-import com.yanyiyun.baseutils.library.view.chart.chart.PieChart;
-import com.yanyiyun.baseutils.library.view.chart.data.PieData;
-import com.yanyiyun.baseutils.library.view.chart.interfaces.iData.IPieData;
+import com.yanyiyun.function.screenAdaptation.ScreenAdapterTools;
+import com.yanyiyun.view.chart.chart.PieChart;
+import com.yanyiyun.view.chart.data.PieData;
+import com.yanyiyun.view.chart.interfaces.iData.IPieData;
 
 import java.util.ArrayList;
 
