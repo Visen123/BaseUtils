@@ -44,4 +44,4 @@
 [PhotoView 缩放移动图片](https://github.com/Visen123/BaseUtils/wiki/PhotoView)&ensp;  &ensp;
 [TreeListView 树形列表](https://github.com/Visen123/BaseUtils/wiki/TreeListView)&ensp;  &ensp;
 [CountDownButton 倒计时按钮](https://github.com/Visen123/BaseUtils/wiki/CountDownButton)&ensp;  &ensp;<br/>
-[RecyclerView SwipeMenu 侧滑菜单](https://github.com/Visen123/BaseUtils/wiki/RecyclerView SwipeMenu 侧滑菜单)&ensp;  &ensp;
+[RecyclerView SwipeMenu 侧滑菜单](https://github.com/Visen123/BaseUtils/wiki/RecyclerViewSwipeMenu侧滑菜单)&ensp;  &ensp;
